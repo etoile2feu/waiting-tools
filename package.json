@@ -4,6 +4,7 @@
   "description": "A simple package that allow you to do asynchrones/not asynchrones wait for your program.",
   "main": "index.js",
   "type": "commonjs",
+  "types": "./types/index.d.ts"
   "repository": {
     "type": "git",
     "url": "https://github.com/etoile2feu/waiting-tools"
