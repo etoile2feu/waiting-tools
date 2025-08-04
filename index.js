@@ -1,7 +1,7 @@
 module.exports = {
 
     /*
-    This function allow you to wait x milliseconds, or to wait until the x timestamp.
+    This function wait x milliseconds, or it wait until the x timestamp.
     Examples :
     ==> await wait(1000) // wait for 1 second
     ==> await wait({ timestamp: 1754258400000 }) wait until this timestamp. The timestamp must be in milliseconds !
@@ -40,9 +40,9 @@ module.exports = {
     },
 
     /*
-    This function wait a random amount of time between 2 values.
+    This function wait for a random moment between 2 values.
     Examples:
-    ==> randomwait(2000, 5000) // Wait a random amount of time between 2 and 5 seconds.
+    ==> randomwait(2000, 5000) // Wait for a random moment between 2 and 5 seconds.
     */
 
     async randomwait(min, max) {

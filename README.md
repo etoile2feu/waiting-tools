@@ -2,7 +2,7 @@
 
 - This readme is temporary and will be better at the end of the day
 
-Waiting tool is a npm package to help you put delay in your code easily !
+Waiting tool is a npm package to help you puting delay in your code easily !
 Compatibility with JS and TS.
 
 Install with : ``npm i waiting-tools``</br>

@@ -1,12 +1,12 @@
 /**
- * This function allow you to wait x milliseconds, or to wait until the x timestamp.
+ * This function allow you waits for x milliseconds, or it wait until the x timestamp.
  *
  * @param {any} argument The amount of milliseconds to wait or the timestamp.
  * @returns {boolean} Return a boolean to confirm all is right.
  */
 export declare function wait(argument: number | object): boolean
 /**
- * This function wait a random amount of time between 2 values.
+ * This function wait for a random moment between 2 values.
  *
  * @param {number} min The minimum number.
  * @param {number} min The maximum number.
