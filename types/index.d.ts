@@ -4,7 +4,7 @@
  * @param {any} argument The amount of milliseconds to wait or the timestamp.
  * @returns {boolean} Return a boolean to confirm all is right.
  */
-export declare function wait(argument: any): boolean
+export declare function wait(argument: number | object): boolean
 /**
  * This function wait a random amount of time between 2 values.
  *
@@ -18,4 +18,5 @@ export declare function randomwait(min: number, max: number): boolean
  *
  * @returns {boolean} Return a boolean to confirm all is right.
  */
+
 export declare function test(): boolean
