@@ -3,8 +3,17 @@
 Waiting tool is a npm package to help you puting delay in your code easily !
 Compatibility with JS and TS.
 
-Install with : ``npm i waiting-tools``</br>
-Import with : ``const { wait, randomwait } = require("waiting-tools")``</br>
+Install with :
+
+``
+npm i waiting-tools
+``
+
+Import with :
+
+``
+const { wait, randomwait } = require("waiting-tools")
+``
 
 ## Wait for 1 second :
 

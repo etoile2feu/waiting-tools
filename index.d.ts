@@ -1,7 +1,7 @@
 /**
  * This function allow you waits for x milliseconds, or it wait until the x timestamp.
  *
- * @param {any} argument The amount of milliseconds to wait or the timestamp.
+ * @param {number | object} argument The amount of milliseconds to wait or the timestamp.
  * @returns {boolean} Return a boolean to confirm all is right.
  */
 export declare function wait(argument: number | object): boolean

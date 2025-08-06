@@ -1,10 +1,10 @@
 {
   "name": "waiting-tools",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A simple package for doing asynchrone waiting.",
   "main": "index.js",
   "type": "commonjs",
-  "types": "./types/index.d.ts",
+  "types": "./index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/etoile2feu/waiting-tools"
