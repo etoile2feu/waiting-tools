@@ -29,7 +29,7 @@ module.exports = {
             if (timestampEnd < Date.now()) throw new Error("[wait-js] You can't delay something to the past!")
             if ((!timestampEnd || timestampEnd < 0) && timestampEnd != 0) throw new Error("[wait-js] The timestamp must be an integer, and more than 0!")
 
-            while (Date.now() < timestamp) {
+            while (Date.now() < timestampEnd) {
 
             }
             return true
