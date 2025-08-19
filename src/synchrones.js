@@ -46,14 +46,12 @@ module.exports = {
 
     srandomwait(min, max) {
 
-        return new Promise(async (resolve, reject) => {
-            if (((!min && min != 0) || min < 0) || ((!max && max != 0 || max < 0))) throw new Error("[wait-js] You called the randomwait() function without arguments, or your arguments are invalid!")
-            const random = Math.floor(Math.random() * max) + min;
-            setTimeout(() => {
-                resolve(true)
-            }, random)
-        })
+        if (((!min && min != 0) || min < 0) || ((!max && max != 0 || max < 0))) throw new Error("[wait-js] You called the randomwait() function without arguments, or your arguments are invalid!")
+        const random = Math.floor(Math.random() * max) + min;
+        while (Date.now() - debut < random) {
 
+        }
+        return true
     },
 
     /*
