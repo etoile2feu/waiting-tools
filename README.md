@@ -16,7 +16,7 @@ npm i waiting-tools
 ``
 
 You can choose between doing asynchronous/synchronous waits.
-Asynchronous waits are recommended for performances/ressources, but you may want synchronous waits for tests if you can't put await where you want to do waits.
+Asynchronous waits are recommended for performances/ressources, but you may want synchronous waits for tests or if you can't put await where you want to do waits.
 
 <details>
 <summary>In asynchronous environments</summary>
