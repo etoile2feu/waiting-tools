@@ -78,3 +78,5 @@ console.log("Waiting for a random amount of time between 4 and 8 seconds...")
 srandomwait(4000, 8000)
 ```
 </details>
+
+You can join the [Etoile Softwares](https://discord.gg/S4tWY332gQ) Discord Server.
