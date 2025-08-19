@@ -14,7 +14,7 @@ module.exports = {
         if (time && time >= 0) {
 
             var time = Number(time)
-            if ((!time || time < 0) && time != 0) throw new Error("[wait-js] The time must be an integer, and more than 0 !")
+            if ((!time || time < 0) && time != 0) throw new Error("[wait-js] The time must be an integer, and more than 0!")
 
             return new Promise((resolve, reject) => {
                 setTimeout(() => {
@@ -26,8 +26,8 @@ module.exports = {
         } else if (argument && argument.timestamp) {
 
             var timestampEnd = Number(argument.timestamp)
-            if (timestampEnd < Date.now()) throw new Error("[wait-js] You can't delay something to the past !")
-            if ((!timestampEnd || timestampEnd < 0) && timestampEnd != 0) throw new Error("[wait-js] The timestamp must be an integer, and more than 0 !")
+            if (timestampEnd < Date.now()) throw new Error("[wait-js] You can't delay something to the past!")
+            if ((!timestampEnd || timestampEnd < 0) && timestampEnd != 0) throw new Error("[wait-js] The timestamp must be an integer, and more than 0!")
 
             return new Promise((resolve, reject) => {
                 setTimeout(() => {
@@ -36,7 +36,7 @@ module.exports = {
             })
 
 
-        } else throw new Error("[wait-js] You called the wait() function without arguments, or your arguments are invalid !")
+        } else throw new Error("[wait-js] You called the wait() function without arguments, or your arguments are invalid!")
     },
 
     /*
@@ -48,7 +48,7 @@ module.exports = {
     async randomwait(min, max) {
 
         return new Promise(async (resolve, reject) => {
-            if (((!min && min != 0) || min < 0) || ((!max && max != 0 || max < 0))) throw new Error("[wait-js] You called the randomwait() function without arguments, or your arguments are invalid !")
+            if (((!min && min != 0) || min < 0) || ((!max && max != 0 || max < 0))) throw new Error("[wait-js] You called the randomwait() function without arguments, or your arguments are invalid!")
             const random = Math.floor(Math.random() * max) + min;
             setTimeout(() => {
                 resolve(true)
