@@ -91,4 +91,5 @@ srandomwait(4000, 8000)
 ```
 </details>
 
+If you love what I do and you want to support me even for the price of a coffee : https://buymeacoffee.com/etoile2feu.
 You can join the [Etoile Softwares](https://discord.gg/79Xwqzfuzu) Discord Server.
