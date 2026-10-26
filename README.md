@@ -1,8 +1,8 @@
-<h1>~--- Waiting Tools ---~</h1>
+<h1>~--- Waiting Tools V2.0.0 ---~</h1>
 
 *Wait, with or without await.*
 
-Waiting tools is an npm package to do asynchrone or synchrone waits, with a lot of options in your code easily!
+Waiting tools is a npm package to do asynchrone or synchrone waits, with a lot of options in your code easily!
 Compatibility with JS and TS.
 
 Why using this package?
@@ -25,6 +25,12 @@ Import with :
 
 ``
 const { wait, randomwait } = require("waiting-tools")
+``
+
+or :
+
+``
+import { wait, randomwait } from 'waiting-tools'
 ``
 
 ## Wait for 1 second :
@@ -57,6 +63,12 @@ Import with :
 const { swait, srandomwait } = require("waiting-tools")
 ``
 
+or :
+
+``
+import { swait, srandomwait } from 'waiting-tools'
+``
+
 ## Wait for 1 second :
 
 ```
@@ -79,4 +91,4 @@ srandomwait(4000, 8000)
 ```
 </details>
 
-You can join the [Etoile Softwares](https://discord.gg/S4tWY332gQ) Discord Server.
+You can join the [Etoile Softwares](https://discord.gg/79Xwqzfuzu) Discord Server.
