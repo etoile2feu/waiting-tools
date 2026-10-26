@@ -13,7 +13,7 @@ module.exports = {
 
         if (time && time >= 0) {
 
-            if (isNan(time)) throw new Error("[wait-js] Time should be an number.")
+            if (isNaN(time)) throw new Error("[wait-js] Time should be an number.")
 
             var time = Number(time)
             if ((!time || time < 0) && time != 0) throw new Error("[wait-js] The time must be an integer, and more than 0!")
@@ -27,7 +27,7 @@ module.exports = {
 
         } else if (argument && argument.timestamp) {
 
-            if (isNan(argument.time)) throw new Error("[wait-js] Time should be an number.")
+            if (isNaN(argument.time)) throw new Error("[wait-js] Time should be an number.")
 
             var timestampEnd = Number(argument.timestamp)
             if (timestampEnd < Date.now()) throw new Error("[wait-js] You can't delay something to the past!")
@@ -52,7 +52,7 @@ module.exports = {
 
     srandomwait(min, max) {
 
-        if (isNan(min) || isNan(max)) throw new Error("[wait-js] Time should be an number.")
+        if (isNaN(min) || isNaN(max)) throw new Error("[wait-js] Time should be an number.")
 
         if (((!min && min != 0) || min < 0) || ((!max && max != 0 || max < 0))) throw new Error("[wait-js] You called the randomwait() function without arguments, or your arguments are invalid!")
         const random = Math.floor(Math.random() * max) + min;
